@@ -1,0 +1,117 @@
+/* Budget.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+h3 {
+  color: #444;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Buttons */
+.bg-blue-500 {
+  background-color: #007bff;
+}
+
+.bg-blue-500:hover {
+  background-color: #0056b3;
+}
+
+.bg-green-500 {
+  background-color: #28a745;
+}
+
+.bg-green-500:hover {
+  background-color: #218838;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+/* Progress bar styling */
+.bg-gray-200 {
+  background-color: #e9ecef;
+}
+
+.bg-blue-600 {
+  background-color: #007bff;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+thead {
+  background-color: #f1f1f1;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 12px;
+}
+
+th {
+  color: #333;
+  font-weight: 600;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+.text-yellow-500 {
+  color: #ffc107;
+}
+
+.text-red-500 {
+  color: #dc3545;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+}

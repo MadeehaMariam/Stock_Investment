@@ -1,0 +1,101 @@
+/* Background and container styling */
+.create-demat-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .create-demat-box {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Heading */
+  .create-demat-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .create-demat-subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Broker buttons */
+  .broker-link {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .broker-upstox { background: #0052cc; } 
+  .broker-upstox:hover { background: #0040a3; }
+  
+  .broker-groww { background: #00a65a; }
+  .broker-groww:hover { background: #008b4e; }
+  
+  .broker-angel { background: #d32f2f; }
+  .broker-angel:hover { background: #b71c1c; }
+  
+  .broker-zerodha { background: #222; }
+  .broker-zerodha:hover { background: #000; }
+  
+  /* Tutorial links */
+  .tutorial-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 15px;
+  }
+  
+  .tutorial-link {
+    display: block;
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 6px;
+  }
+  
+  .tutorial-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Proceed button */
+  .proceed-button {
+    width: 100%;
+    background: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .proceed-button:hover {
+    background: #218838;
+  }
+  

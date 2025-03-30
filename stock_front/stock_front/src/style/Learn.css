@@ -1,0 +1,155 @@
+/* === Global Styles === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb;
+  background-image:url("https://static.vecteezy.com/system/resources/previews/005/442/591/non_2x/stock-market-forex-trading-graph-and-candlestick-chart-photo.jpg") ;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #2d3748; /* Dark gray for headings */
+  margin: 0;
+}
+
+p {
+  color: #4a5568; /* Subtle gray for paragraph text */
+  margin: 0;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* === Section Titles === */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  font-weight: semi-bold;
+}
+
+/* === Articles Section === */
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+ul li {
+  color: #2b6cb0; /* Blue for clickable items */
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+ul li:hover {
+  text-decoration: underline;
+  color: #1e4a8b; /* Darker blue on hover */
+}
+
+/* === Links === */
+a {
+  text-decoration: none;
+  color: #2b6cb0;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1e4a8b;
+}
+
+/* === Quiz Section === */
+.bg-gray-100 {
+  background-color: #edf2f7; /* Light gray background */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners for the container */
+}
+
+.bg-green-200 {
+  background-color: #c6f6d5; /* Light green for correct answers */
+}
+
+.bg-red-200 {
+  background-color: #fed7d7; /* Light red for incorrect answers */
+}
+
+p.text-lg {
+  margin-bottom: 15px;
+  font-size: 1.125rem; /* Slightly larger font for emphasis */
+}
+
+ul.quiz-options {
+  margin-top: 15px;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul.quiz-options li {
+  border: 1px solid #e2e8f0; /* Light gray border */
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ul.quiz-options li:hover {
+  background-color: #e2e8f0; /* Light gray on hover */
+}
+
+/* === Buttons === */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #3182ce; /* Blue button background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2b6cb0; /* Darker blue on hover */
+  transform: scale(1.05); /* Slight zoom-in effect */
+}
+
+/* === Feedback === */
+.text-green-600 {
+  color: #48bb78; /* Green for correct feedback */
+  font-weight: bold;
+}
+
+.text-red-600 {
+  color: #f56565; /* Red for incorrect feedback */
+  font-weight: bold;
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+
+  ul.quiz-options li {
+      padding: 8px 12px;
+  }
+
+  button {
+      padding: 8px 15px;
+      font-size: 0.875rem; /* Slightly smaller font for smaller screens */
+  }
+}

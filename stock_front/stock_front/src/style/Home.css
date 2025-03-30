@@ -1,0 +1,148 @@
+/* Define variables for theme management */
+:root {
+  --primary-color: #6a0dad;
+  --secondary-color: #ffffff;
+  --hover-color: #b19cd9;
+  --background-color: #f5f5f5;
+  --navbar-bg: var(--primary-color);
+  --font-family: 'Arial', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-content {
+  background-image: url('https://c8.alamy.com/comp/2EMKBPB/blue-stock-market-or-financial-chart-with-a-declining-trend-on-a-white-background-vector-2EMKBPB.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  min-height: 100vh;
+  /* Ensure full viewport height */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: var(--navbar-bg);
+  color: var(--secondary-color);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--hover-color);
+}
+
+/* Main Content Styles */
+.home-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.content-wrapper {
+  max-width: 800px;
+}
+
+.content-wrapper h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.content-wrapper p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Call-to-Action Buttons */
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 25px;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.btn.secondary {
+  border-color: #333;
+  color: #333;
+}
+
+.btn.secondary:hover {
+  background-color: #333;
+  color: var(--secondary-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .content-wrapper h2 {
+    font-size: 2rem;
+  }
+
+  .content-wrapper p {
+    font-size: 1rem;
+  }
+}

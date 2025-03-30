@@ -1,0 +1,147 @@
+/* BuyStock.css */
+.buy-stock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  .buy-stock-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #333;
+  }
+  
+  .stock-details p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .quantity-container,
+  .order-type-container,
+  .product-container,
+  .price-container {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .quantity-container span,
+  .price-container span,
+  .order-type-container span,
+  .product-container span {
+    font-weight: bold;
+  }
+  
+  .quantity-container button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quantity-container button:hover {
+    background: #0056b3;
+  }
+  
+  .order-type-container button,
+  .product-container button {
+    background: #ddd;
+    border: none;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-type-container button.selected,
+  .product-container button.selected {
+    background: #28a745;
+    color: white;
+  }
+  
+  .order-type-container button:hover,
+  .product-container button:hover {
+    background: #218838;
+    color: white;
+  }
+  
+  .review-button {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .review-button:hover {
+    background: #0db313;
+  }
+  
+  /* Demat Account Prompt */
+  .demat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  .demat-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .demat-question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 12px;
+  }
+  
+  .demat-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .yes-button, .no-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .yes-button:hover, .no-button:hover {
+    background: #0056b3;
+  }
+  
+  .no-button {
+    background: #dc3545;
+  }
+  
+  .no-button:hover {
+    background: #c82333;
+  }
+  
